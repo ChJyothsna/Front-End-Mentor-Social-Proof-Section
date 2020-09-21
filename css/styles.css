@@ -1,0 +1,188 @@
+body
+{
+  background-image: url("E:/Front End Mentor/social-proof-section-master/images/bg-pattern-top-desktop.svg"), url("E:/Front End Mentor/social-proof-section-master/images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top-right, bottom-left;
+  background-size: auto, contain;
+  font-family: 'Spartan', sans-serif;
+}
+
+/* Main Heading*/
+
+.container-fluid
+{
+  padding: 6% 5%;
+}
+
+.heading
+{
+  color: hsl(300, 43%, 22%);
+  font-size: 3.5rem;
+}
+
+/* Paragraph Under heading */
+
+.heading-para
+{
+  color: grey;
+  line-height: 1.8rem;
+  margin-right: 20px;
+}
+
+/* Ratings */
+
+.card1, .card2, .card3
+{
+  height: 50px;
+  width: 450px;
+  text-align: center;
+  margin: 20px 0;
+  background-color: hsl(300, 24%, 96%);
+
+}
+
+.rating
+{
+  margin: 10px 0;
+}
+
+/* Rating Lines */
+
+.rate-para
+{
+  color: hsl(300, 43%, 22%);
+  padding-left: 20px;
+  font-weight: 500;
+}
+
+
+/* About the buyers */
+
+.card2
+{
+  margin-left: 40px;
+}
+
+.card3
+{
+  margin-left: 80px;
+}
+
+
+.cards-section
+{
+  padding: 3% 5%;
+}
+
+/* Images of persons */
+
+.person-img
+{
+  border-radius: 50px;
+  width: 50px;
+  float: left;
+  margin: 25px 20px 20px 15px;
+}
+
+.name
+{
+  font-size: 1rem;
+  padding: 35px 0 0 0;
+  color: hsl(300, 24%, 96%);
+}
+
+
+.job
+{
+  font-size: 1rem;
+  color: hsl(333, 80%, 67%);
+}
+
+.person
+{
+  width: 380px;
+  height: 250px;
+  background-color: hsl(300, 43%, 22%);
+  padding: 0 25px;
+}
+
+.person-para
+{
+  font-size: 0.9rem;
+  padding: 25px 15px;
+  color: hsl(300, 24%, 96%);
+}
+
+.card5
+{
+  margin-top: 40px;
+}
+
+.card6
+{
+  margin-top: 80px;
+}
+
+/* Attribution */
+
+.attribution
+{
+  padding: 2% 5%;
+}
+
+
+/* Mobile View */
+
+
+@media (max-width: 984px)
+{
+  body
+  {
+    background-image: url("E:/Front End Mentor/social-proof-section-master/images/bg-pattern-top-mobile.svg"), url("E:/Front End Mentor/social-proof-section-master/images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top-right, bottom-left;
+    background-size: auto, 3000px 3000px;
+  }
+  .container-fluid
+  {
+    text-align: center;
+  }
+  .heading
+  {
+    font-size: 2.5rem;
+  }
+  .card2, .card3
+  {
+    margin-left: 0px;
+  }
+  .card5, .card6
+  {
+    margin-top: 0px;
+  }
+  .card4
+  {
+    margin: 20px 25px 5px 35px;
+  }
+  .card5, .card6
+  {
+    margin: 5px 25px 5px 35px;
+  }
+  .card1, .card2, .card3
+  {
+    height: 90px;
+    width: 450px;
+  }
+  .rating
+  {
+    padding: 10px 10px;
+  }
+  .rate-para
+  {
+    padding: 6px 5px;
+    display: block;
+  }
+  .cards-section
+  {
+    text-align: left;
+  }
+}
